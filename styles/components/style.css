@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+body {
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  height: 100vh;
+  background-image: url("../../images/desktop/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+header .header__container .logo {
+  width: 220px;
+}
+header .header__container .menu__hamburguer {
+  display: none;
+}
+header .header__container .nav__container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header .header__container .nav__container .nav__container-itens {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+header .header__container .nav__container .nav__container-itens:hover {
+  color: hsl(168, 57%, 72%);
+}
+header .header__container .nav__container .contact {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(212, 27%, 19%);
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+}
+header .header__container .nav__container .contact:hover {
+  background-color: hsl(168, 57%, 72%);
+  color: hsl(0, 0%, 100%);
+}
+header .title {
+  font-size: 5rem;
+  color: hsl(0, 0%, 100%);
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  letter-spacing: 1rem;
+}
+
+.container {
+  display: flex;
+  height: 75vh;
+}
+.container .container__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.container .container__left .container__left-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+}
+.container .container__left .container__left-infos .subtitle {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+}
+.container .container__left .container__left-infos .description {
+  color: hsl(232, 10%, 55%);
+  font-size: 1.5rem;
+}
+.container .container__left .container__left-infos .btn {
+  display: table;
+  text-transform: uppercase;
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  border-bottom: 5px solid hsl(51, 100%, 49%);
+  font-size: 1.5rem;
+}
+.container .container__right {
+  flex: 1;
+  background-image: url("/images/desktop/image-transform.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .glass {
+  background-image: url("../../images/desktop/image-stand-out.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .cherry {
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-content: center;
+  align-items: end;
+}
+.container .cherry .container__left-infos {
+  position: relative;
+  bottom: 10%;
+}
+.container .orange {
+  background-image: url("../../images/desktop/image-photography.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clients__container {
+  padding: 10rem;
+}
+.clients__container .subtitle {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.clients__container .clients__container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.clients__container .clients__container-cards .clients__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 400px;
+  gap: 20px;
+}
+.clients__container .clients__container-cards .clients__card .client__img {
+  width: 120px;
+  border-radius: 100px;
+}
+.clients__container .clients__container-cards .clients__card .client__description {
+  color: hsl(232, 10%, 55%);
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.clients__container .clients__container-cards .clients__card .client__name {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.clients__container .clients__container-cards .clients__card .client__function {
+  font-size: 1.2rem;
+  color: hsl(210, 4%, 67%);
+}
+
+.images__container {
+  height: 60vh;
+  display: flex;
+}
+.images__container .milk {
+  background-image: url("../../images/desktop/image-gallery-milkbottles.jpg");
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+}
+.images__container .orange {
+  background-image: url("../../images/desktop/image-gallery-orange.jpg");
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+}
+.images__container .cone {
+  background-image: url("../../images/desktop/image-gallery-cone.jpg");
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+}
+.images__container .sugar {
+  background-image: url("../../images/desktop//image-gallery-sugarcubes.jpg");
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: hsl(168, 57%, 72%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 5rem;
+}
+footer .footer__container .logo {
+  width: 250px;
+  filter: invert(75%);
+}
+footer .footer__container .footer__nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+footer .footer__container .footer__nav .footer__item {
+  font-size: 1.2rem;
+  color: hsl(168, 34%, 41%);
+}
+footer .footer__container .footer__nav .footer__item:hover {
+  color: hsl(0, 0%, 100%);
+}
+footer .footer__container .footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+footer .footer__container .footer__socials .socials:hover {
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 768px) {
+  header .header__container .menu__hamburguer {
+    display: block;
+  }
+  header .header__container .nav__container {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    top: 10%;
+    gap: 30px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem 3rem;
+    z-index: 1;
+  }
+  header .header__container .nav__container .nav__container-itens {
+    color: hsl(210, 4%, 67%);
+    font-size: 1.5rem;
+  }
+  header .header__container .nav__container .nav__container-itens:hover {
+    color: hsl(232, 10%, 55%);
+  }
+  header .header__container .nav__container .contact {
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(51, 100%, 49%);
+  }
+  header .header__container .nav__container .contact:hover {
+    background-color: hsl(7, 99%, 70%);
+    color: hsl(0, 0%, 100%);
+  }
+  header .title {
+    font-size: 4rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .container .container__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+  }
+  .container .container__left .container__left-infos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container .container__left .container__left-infos .subtitle {
+    font-size: 2.2rem;
+  }
+  .container .container__left .container__left-infos .description {
+    font-size: 1.5rem;
+  }
+  .container .container__left .container__left-infos .btn {
+    font-size: 1.5rem;
+  }
+  .container .container__right {
+    flex: 1;
+    height: 50%;
+    background-image: url("../../images/mobile/image-transform.jpg");
+    /*             background-position: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container .glass {
+    background-image: url("../../images/desktop/image-stand-out.jpg");
+    order: 1;
+  }
+  .container .cherry {
+    width: 100%;
+    height: 75vh;
+    align-items: end;
+  }
+  .container .orange {
+    background-image: url("../../images/desktop/image-photography.jpg");
+  }
+  .clients__container .subtitle {
+    font-size: 3rem;
+  }
+  .clients__container .clients__container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .clients__container .clients__container-cards .clients__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 400px;
+    gap: 60px;
+  }
+  .clients__container .clients__container-cards .clients__card .client__img {
+    width: 120px;
+    border-radius: 100px;
+  }
+  .clients__container .clients__container-cards .clients__card .client__description {
+    color: hsl(232, 10%, 55%);
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__name {
+    font-family: "Fraunces", serif;
+    color: hsl(212, 27%, 19%);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__function {
+    font-size: 1.2rem;
+    color: hsl(210, 4%, 67%);
+  }
+  .images__container {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    flex-wrap: wrap;
+  }
+  .images__container .milk {
+    background-image: url("../../images/mobile/image-gallery-milkbottles.jpg");
+  }
+  .images__container .orange {
+    background-image: url("../../images/desktop/image-gallery-orange.jpg");
+  }
+  .images__container .cone {
+    background-image: url("../../images/mobile/image-gallery-cone.jpg");
+  }
+  .images__container .sugar {
+    background-image: url("../../images/mobile//image-gallery-sugar-cubes.jpg");
+  }
+  footer {
+    height: 40vh;
+    box-sizing: border-box;
+  }
+  footer .footer__container {
+    padding: 0;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 430px) {
+  header .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+  }
+  header .header__container .logo {
+    width: 150px;
+  }
+  header .header__container .menu__hamburguer {
+    display: block;
+  }
+  header .header__container .nav__container {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    top: 10%;
+    gap: 30px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem 3rem;
+    z-index: 1;
+  }
+  header .header__container .nav__container .nav__container-itens {
+    color: hsl(210, 4%, 67%);
+    font-size: 1.5rem;
+  }
+  header .header__container .nav__container .nav__container-itens:hover {
+    color: hsl(232, 10%, 55%);
+  }
+  header .header__container .nav__container .contact {
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(51, 100%, 49%);
+  }
+  header .header__container .nav__container .contact:hover {
+    background-color: hsl(7, 99%, 70%);
+    color: hsl(0, 0%, 100%);
+  }
+  header .title {
+    font-size: 2.2rem;
+    letter-spacing: 10px;
+  }
+  .container .container__left .container__left-infos {
+    gap: 20px;
+  }
+  .container .container__left .container__left-infos .subtitle {
+    font-size: 1.5rem;
+  }
+  .container .container__left .container__left-infos .description {
+    font-size: 1.1rem;
+  }
+  .container .container__left .container__left-infos .btn {
+    font-size: 1.1rem;
+  }
+  .clients__container {
+    padding: 3rem 1rem;
+  }
+  .clients__container .subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .clients__container .clients__container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 90px;
+  }
+  .clients__container .clients__container-cards .clients__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 400px;
+    gap: 20px;
+  }
+  .clients__container .clients__container-cards .clients__card .client__img {
+    width: 120px;
+    border-radius: 100px;
+  }
+  .clients__container .clients__container-cards .clients__card .client__description {
+    color: hsl(232, 10%, 55%);
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__name {
+    font-family: "Fraunces", serif;
+    color: hsl(212, 27%, 19%);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__function {
+    font-size: 1.2rem;
+    color: hsl(210, 4%, 67%);
+  }
+  footer {
+    height: 40vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  footer .footer__container {
+    padding: 0;
+    gap: 60px;
+  }
+  footer .footer__container .logo {
+    width: 150px;
+    filter: invert(75%);
+  }
+  footer .footer__container .footer__nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .container .container__left .container__left-infos {
+    width: 80%;
+    gap: 20px;
+  }
+  .container .container__left .container__left-infos .subtitle {
+    font-size: 1.2rem;
+  }
+  .container .container__left .container__left-infos .description {
+    font-size: 1.1rem;
+  }
+  .container .container__left .container__left-infos .btn {
+    font-size: 1.1rem;
+  }
+  .clients__container .subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .clients__container .clients__container-cards {
+    gap: 70px;
+  }
+  .clients__container .clients__container-cards .clients__card .client__description {
+    font-size: 1.1rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__name {
+    font-size: 1.25rem;
+  }
+  .clients__container .clients__container-cards .clients__card .client__function {
+    font-size: 1.2rem;
+  }
+  footer .footer__container {
+    padding: 0;
+    gap: 40px;
+  }
+  footer .footer__container .footer__nav {
+    gap: 35px;
+  }
+}/*# sourceMappingURL=style.css.map */

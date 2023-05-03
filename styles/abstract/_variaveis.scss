@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+//primary colors
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$cyan-text: hsl(167, 40%, 24%);
+$dark-blue-text: hsl(198, 62%, 26%);
+$color-dark-green: hsl(168, 34%, 41%);
+$color-footer: hsl(168, 57%, 72%);
+
+//neutral colors
+$dark-blue: hsl(212, 27%, 19%);
+$dark-gray: hsl(213, 9%, 39%);
+$dark-grayish-blue: hsl(232, 10%, 55%);
+$grayish-blue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+
+//fonts
+
+$font-fraunces: 'Fraunces', serif;
+$font-barlow: 'Barlow', sans-serif;
+
+@mixin container(){
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+}
